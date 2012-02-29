@@ -17,9 +17,6 @@
             });
             setTimeout(displayNext, plugin.settings.interval);
         }
-        /*plugin.foo_public_method = function() {
-            // code goes here
-        }*/
         var displayNext = function() {
             clearTimeout(timerId);
             if(currentIndex >= plugin.settings.messages.length - 1){
