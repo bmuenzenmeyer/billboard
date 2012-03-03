@@ -1,0 +1,10 @@
+marquee.js
+========
+**a simple jQuery plugin that rotates text in and out on an interval, or on click**
+
+### Usage:
+	$('.foo').marquee({messages : ['array', 'of', 'messages']});
+
+
+### Live:
+[www.brianmuenzenmeyer.com/projects.html] (www.brianmuenzenmeyer.com/projects.html)
