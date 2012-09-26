@@ -5,20 +5,14 @@
             interval: 8000
         }
         var plugin = this,
-            timerId,
             currentIndex = 0;
+        plugin.timerId;
         plugin.settings = {}
         var $element = $(element),
              element = element;
-        plugin.init = function() {
-            plugin.settings = $.extend({}, defaults, options);
-            $element.click(function(){
-                displayNext();
-            });
-            setTimeout(displayNext, plugin.settings.interval);
-        }
+
         var displayNext = function() {
-            clearTimeout(timerId);
+            clearTimeout(plugin.timerId);
             if(currentIndex >= plugin.settings.messages.length - 1){
                 currentIndex = 0;
             } else {
@@ -28,7 +22,25 @@
                 $(element).text(plugin.settings.messages[currentIndex]);
             });
             $(element).fadeIn("slow");
-            timerId = setTimeout(displayNext, plugin.settings.interval);
+            plugin.timerId = setTimeout(displayNext, plugin.settings.interval);
+        }
+
+        var stop = function() {
+            $element.stop().removeAttr('style');
+            clearTimeout(plugin.timerId)
+        }
+
+        var start = function() {
+            plugin.timerId = setTimeout(displayNext, plugin.settings.interval);
+        }
+
+        plugin.init = function() {
+            plugin.settings = $.extend({}, defaults, options);
+            $element.on('click', function(){
+                displayNext();
+            });
+            $element.hover(stop,start);
+            start();
         }
         plugin.init();
     }

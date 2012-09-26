@@ -1,6 +1,6 @@
 marquee.js
 ========
-**a simple jQuery plugin that rotates text in and out on an interval, or on click**
+**a simple jQuery plugin that rotates text in and out on an interval, or on click.  text rotation pauses during hover**
 
 ### Usage:
 	$('.foo').marquee({messages : ['array', 'of', 'messages']});
