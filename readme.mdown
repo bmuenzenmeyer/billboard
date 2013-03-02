@@ -1,10 +1,26 @@
-marquee.js
+billboard.js
 ========
 **a simple jQuery plugin that rotates text in and out on an interval, or on click.  text rotation pauses during hover**
 
-### Usage:
-	$('.foo').marquee({messages : ['array', 'of', 'messages']});
+### Usage
+	$(function(){
+		$('blockquote span').billboard({messages : [
+			'Experience is simply the name we give our mistakes.',
+			'Always forgive your enemies - nothing annoys them so much.',
+			'True friends stab you in the front.', 
+			'Women are made to be loved, not understood.',
+			'We are all in the gutter, but some of us are looking at the stars.',
+			'A gentleman is one who never hurts anyone\'s feelings unintentionally.', 
+			'There is only one thing in life worse than being talked about, and that is not being talked about.',
+			'Most people are other people. Their thoughts are someone else\'s opinions, their lives a mimicry, their passions a quotation.',
+			'A little sincerity is a dangerous thing, and a great deal of it is absolutely fatal.', 
+			'There is only one thing in life worse than being talked about, and that is not being talked about.'
+		]});
+	});
 
 
-### Live:
-[www.brianmuenzenmeyer.com/projects.html] (www.brianmuenzenmeyer.com/projects.html)
+### Demo
+[Demo] (www.brianmuenzenmeyer.com/projects/billboard/demo.html)
+
+### Twitter
+[@bmuenzenmeyer] (https://twitter.com/bmuenzenmeyer)

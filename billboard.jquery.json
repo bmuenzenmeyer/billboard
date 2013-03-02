@@ -1,0 +1,35 @@
+{
+	"name": "billboard",
+	"version": "0.1.0",
+	"title": "Billboard",
+	"author": {
+		"name": "Brian Muenzenmeyer",
+		"url": "http://www.brianmuenzenmeyer.com"
+	},
+	"licenses": [
+	  {
+	   "type": "MIT",
+	   "url": "http://www.opensource.org/licenses/mit-license.php"
+	  }
+	],
+	"dependencies": {
+		"jquery" : "1.7.1"
+	},
+	"demo": "http://brianmuenzenmeyer.com/projects/billboard/demo.html",
+	"description": "A simple jQuery plugin that rotates text in and out on the matched element, on a timer, or on click.",
+	"keywords": [
+		"text",
+		"banner",
+		"marquee",
+		"swap text",
+		"rotate text"
+	],
+	"bugs": "https://github.com/bmuenzenmeyer/billboard/issues?direction=desc&sort=created&state=open",
+	"files": [
+		"billboard-0.1.0.js",
+		"billboard-0.1.0.min.js",
+		"jquery-1.7.1.min.js",
+		"billboard.jquery.json",
+		"readme.md"
+	]
+}
