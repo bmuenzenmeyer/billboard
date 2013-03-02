@@ -13,7 +13,7 @@
 	  }
 	],
 	"dependencies": {
-		"jquery" : "1.7.1"
+		"jquery" : ">=1.7.1"
 	},
 	"demo": "http://brianmuenzenmeyer.com/projects/billboard/demo.html",
 	"description": "A simple jQuery plugin that rotates text in and out on the matched element, on a timer, or on click.",
