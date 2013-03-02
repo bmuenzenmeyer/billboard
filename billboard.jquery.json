@@ -21,8 +21,9 @@
 		"text",
 		"banner",
 		"marquee",
-		"swap text",
-		"rotate text"
+		"swap",
+		"rotate",
+		"ui"
 	],
 	"bugs": "https://github.com/bmuenzenmeyer/billboard/issues?direction=desc&sort=created&state=open",
 	"files": [
