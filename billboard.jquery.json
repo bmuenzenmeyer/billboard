@@ -1,6 +1,6 @@
 {
 	"name": "billboard",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"title": "Billboard",
 	"author": {
 		"name": "Brian Muenzenmeyer",
@@ -27,8 +27,8 @@
 	],
 	"bugs": "https://github.com/bmuenzenmeyer/billboard/issues?direction=desc&sort=created&state=open",
 	"files": [
-		"billboard-0.1.0.js",
-		"billboard-0.1.0.min.js",
+		"billboard-0.1.1.js",
+		"billboard-0.1.1.min.js",
 		"jquery-1.7.1.min.js",
 		"billboard.jquery.json",
 		"readme.md"
