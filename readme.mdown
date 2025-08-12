@@ -20,7 +20,4 @@ billboard.js
 
 
 ### Demo
-[Interactive Demo on Codepen] (http://codepen.io/bmuenzenmeyer/pen/eNYbRQ/?editors=101)
-
-### Twitter
-[@bmuenzenmeyer] (https://twitter.com/bmuenzenmeyer)
+[Interactive Demo on Codepen](http://codepen.io/bmuenzenmeyer/pen/eNYbRQ/?editors=101)
